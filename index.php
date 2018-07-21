@@ -10,7 +10,7 @@
 			<a class="btn" href="https://github.com/BingHomepage/BingHomepage.Go" target="_blank">Go</a>
 			<a class="btn" href="?lang=api">Raw API</a>
 			<br><br><br><br>
-			<a class="btn" href="about.php">About</a>
+			<a class="btn" href="https://github.com/BingHomepage/BingHomepageAPI#binghomepageapi" target="_blank">About</a>
 			<?php } else if(isset($lang)) { if($lang == "php"){ ?>
 			<h1>Using with php</h1>
 			<br>

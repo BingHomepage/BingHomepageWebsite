@@ -31,5 +31,5 @@
 	<link rel="stylesheet" type="text/css" href=<?php echo "//cdn.muzzammil.xyz/OctoCSS/octo.css?" . rand(); ?>>
 </head>
 <body>
-	<a href="http://github.com/muhammadmuzzammil1998/BingHomepageAPI" target="_blank"><github class="octo-right"><img src="//cdn.muzzammil.xyz/OctoCSS/github.svg"></github></a>
+	<a href="http://github.com/BingHomepage/BingHomepageAPI" target="_blank"><github class="octo-right"><img src="//cdn.muzzammil.xyz/OctoCSS/github.svg"></github></a>
 	<div id="black"></div>

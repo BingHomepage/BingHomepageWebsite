@@ -17,66 +17,78 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
  * DEALINGS IN THE SOFTWARE.
  */
-*{
-	margin: 0;
-	transition: all .5s;
+
+* {
+    margin: 0;
+    transition: all .5s;
 }
 
-body{
-	background-image: url(<?php echo $image; ?>);
-	background-attachment: fixed;
+body {
+    background-image: url(<?php echo $image; ?>);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	color: white;
-	font-family: "Segoe UI";
+    color: white;
+    font-family: "Segoe UI";
 }
-img{
-	width: 60%;
-	height: auto;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+
+img {
+    width: 60%;
+    height: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
 }
-github img{
+
+github img {
     box-shadow: 0 0 0 0 transparent !important;
 }
-#docmain{
+
+#docmain {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10%;
 }
-p{
-	font-size:200%;
+
+p {
+    font-size: 200%;
 }
-a{
-	color:white;
-	text-decoration: none;
-	cursor: pointer;
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
-#doc{
+
+#doc {
     background-color: rgb(36, 41, 46);
     cursor: pointer;
 }
-.main{
-	width: 100%;
-	padding-top: 10%;
-	padding-bottom: 10%;
+
+.main {
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
-h1{
-	font-weight: 100;
+
+h1 {
+    font-weight: 100;
 }
-#title{
-	font-size:600%;
+
+#title {
+    font-size: 600%;
 }
-#black{
-	background-color: rgba(0,0,0,0.5);
-	width: 100%;
-	height: 100%;
-	position: fixed;
+
+#black {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
     z-index: -42;
 }
-.btn{
-	background-color: transparent;
-	border-radius: 10px;
+
+.btn {
+    background-color: transparent;
+    border-radius: 10px;
     border: 3px solid rgba(255, 255, 255, 0.5);
     font-size: 215%;
     color: white;
@@ -85,10 +97,12 @@ h1{
     padding-left: 1%;
     padding-right: 1%;
 }
-.btn:hover{
-	background-color: rgba(0, 0, 0, 0.5);
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.code{
+
+.code {
     background-color: rgb(36, 41, 46);
     height: auto;
     width: 80%;
@@ -99,44 +113,53 @@ h1{
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     font-family: monospace !important;
-    color:white;
+    color: white;
     text-align: left !important;
     word-wrap: break-word;
 }
-.inline{
-	background-color: rgb(36, 41, 46);
+
+.inline {
+    background-color: rgb(36, 41, 46);
     height: auto;
     width: 80%;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     font-family: monospace !important;
-    color:white;
+    color: white;
     text-align: left !important;
     word-wrap: break-word;
 }
-tab{
+
+tab {
     margin: 20px;
 }
-p{
-	padding-left: 10%;
-	padding-right: 10%;
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
 }
-#keyword{
+
+#keyword {
     color: #ff3b5d;
 }
-#var{
+
+#var {
     color: #00d700;
 }
-#quote{
+
+#quote {
     color: #e6b400;
 }
-#comment{
-	color: #626568;
+
+#comment {
+    color: #626568;
 }
-#func{
-	color: #17ffe3;
+
+#func {
+    color: #17ffe3;
 }
-#lang{
+
+#lang {
     background-color: rgb(87, 96, 105);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;

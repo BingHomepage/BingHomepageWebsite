@@ -32,6 +32,7 @@ SOFTWARE.
 		$lang = $_GET["lang"];
 	?>
 	<link rel="stylesheet" type="text/css" href="main.php">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href=<?php echo "//cdn.muzzammil.xyz/OctoCSS/octo.css?" . rand(); ?>>
 </head>
 <body>

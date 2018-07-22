@@ -28,7 +28,7 @@ SOFTWARE.
 	<?php 
 		$themecode = "#" . substr(uniqid(rand()), -6);
 		echo '<meta name="theme-color" content="'. $themecode . '" />';
-		echo '<!-- http://git.muzzammil.xyz/randomTheme/ -->\n';
+		echo '<!-- http://git.muzzammil.xyz/randomTheme/ -->';
 		$lang = $_GET["lang"];
 	?>
 	<link rel="stylesheet" type="text/css" href="main.php">

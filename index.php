@@ -45,8 +45,8 @@ SOFTWARE.
 			<h2>Select your language to get started:</h2>
 			<br><br><br>	
 			<a class="btn" href="?lang=php">php</a>
-			<a class="btn" href="https://github.com/BingHomepage/BingHomepage.CSharp" target="_blank">C#</a>
-			<a class="btn" href="https://github.com/BingHomepage/BingHomepage.Go" target="_blank">Go</a>
+			<a class="btn" href="https://binghomepage.github.io/BingHomepage.CSharp" target="_blank">C#</a>
+			<a class="btn" href="https://binghomepage.github.io/BingHomepage.Go" target="_blank">Go</a>
 			<a class="btn" href="?lang=api">Raw API</a>
 			<br><br><br><br>
 			<a class="btn" href="https://github.com/BingHomepage/BingHomepageAPI#binghomepageapi" target="_blank">About</a>
@@ -70,8 +70,8 @@ SOFTWARE.
 				<span id="keyword">?&gt</span><br>
 			</div>
 			<br><br>
-			<a class="btn" href="https://github.com/BingHomepage/BingHomepage.CSharp" target="_blank">C#</a>
-			<a class="btn" href="https://github.com/BingHomepage/BingHomepage.Go" target="_blank">Go</a>
+			<a class="btn" href="https://binghomepage.github.io/BingHomepage.CSharp" target="_blank">C#</a>
+			<a class="btn" href="https://binghomepage.github.io/BingHomepage.Go" target="_blank">Go</a>
 			<a class="btn" href="?lang=api">Raw API</a>
 			<?php } else if($lang == "api") { ?>
 			<h1>If you want to add a language, please contribute on our GitHub page.</h1>

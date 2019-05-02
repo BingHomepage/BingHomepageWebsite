@@ -53,7 +53,7 @@ $lang = $_GET["lang"];
       <a class="btn" href="https://binghomepage.github.io/BingHomepage.Go" target="_blank">Go</a>
       <a class="btn" href="?lang=api">Raw API</a>
       <br><br><br><br>
-      <a class="btn" href="https://github.com/BingHomepage/BingHomepageAPI#binghomepageapi" target="_blank">About</a>
+      <a class="btn" href="https://binghomepage.github.io/BingHomepageAPI/" target="_blank">About</a>
       <?php } else if (isset($lang)) {if ($lang == "php") {?>
       <h1>Using with php</h1>
       <br>
